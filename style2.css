@@ -1,7 +1,9 @@
 *{
 	box-sizing: border-box;
 }
-
+body{
+	background-color: black;
+}
 .main2{
 	/*border:2px solid black;*/
 	display: flex;
@@ -18,7 +20,7 @@
 	background-image: url("field.png");
 	background-size: 100% 800px;
 	background-repeat: no-repeat;
-	box-shadow: 4px 4px 15px black ;
+	box-shadow: 4px 4px 15px white ;
 	display: flex;
 	flex-direction: column;
 }
@@ -35,7 +37,7 @@
 	background-image: url("field.png");
 	background-size: 100% 800px;
 	background-repeat: no-repeat;
-	box-shadow: 4px 4px 15px black ;
+	box-shadow: 4px 4px 15px white ;
 	display: flex;
 	flex-direction: column;
 }
@@ -91,10 +93,10 @@
 .choosePlayers{
 	display: flex;
 	flex-direction: column;
-	/*border:2px solid black;*/
+	border:2px solid white;
 	width: 50%;
 	height: 800px;
-	box-shadow: 4px 4px 15px black ;
+	box-shadow: 4px 4px 15px white ;
 }
 
 #formation{
@@ -111,7 +113,7 @@
 	background-image: url("field.png");
 	background-size: 100% 800px;
 	background-repeat: no-repeat;
-	box-shadow: 4px 4px 15px black ;
+	box-shadow: 4px 4px 15px white ;
 	display: flex;
 	flex-direction: column;
 }
