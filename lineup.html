@@ -2,17 +2,71 @@
 <html>
 <head>
 	<title>LINEUP</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Wallpoet&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
 	<div class="main2">
-		<div class="field">
-			
+		<div id="first" class="formation0">
 		</div>
+		<div id="second" class="formation1">
+			<div class="block ">
+				<div class="p w"></div>
+				<div class="p w"></div>
+				<div class="p w"></div>
+			</div>
+			<div class="block ">
+				<div class="p x"></div>
+				<div class="p x"></div>
+				<div class="p x"></div>
+			</div>
+			<div class="block ">
+				<div class="p y"></div>
+				<div class="p y"></div>
+				<div class="p y"></div>
+				<div class="p y"></div>
+			</div>
+			<div class="block ">
+				<div class="p z"></div>
+			</div>
+		</div>
+
+		<div id="third" class="formation2">
+			<div class="block2">
+				<div class="p2 w2"></div>
+				<div class="p2 w2"></div>
+			</div>
+			<div class="block2">
+				<div class="p2 x2"></div>
+				<div class="p2 x2"></div>
+				<div class="p2 x2"></div>
+				<div class="p2 x2"></div>
+
+			</div>
+			<div class="block2">
+				<div class="p2 y2"></div>
+				<div class="p2 y2"></div>
+				<div class="p2 y2"></div>
+				<div class="p2 y2"></div>
+			</div>
+			<div class="block2">
+				<div class="p2 z2"></div>
+			</div>
+		</div>
+
 		<div class="choosePlayers">
-			
+			<select id="formation">
+				<option disabled value="" selected hidden>Tactics</option>
+		  		<option id="opt1" value="one" onchange="Tactic433()">4-3-3</option>
+		  		<option id="opt2" value="two">4-4-2</option>
+		  		<option id="opt3" value="three">Not Yeat</option>
+		  		<option id="opt4" value="four">Not Yeat</option>
+			</select>
 		</div>
 	</div>
 
-
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
