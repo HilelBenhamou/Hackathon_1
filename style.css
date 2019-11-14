@@ -189,6 +189,12 @@ h2{
 	color: white;
 }
 
+.form_img{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 label{
 	color: white;
 }
@@ -211,6 +217,10 @@ label{
 	background-color: black;
 	color: red;
 	border-color: white;
+}
+
+.input{
+	width: 500px;
 }
 
 /***************************************************/
