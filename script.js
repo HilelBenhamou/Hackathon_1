@@ -29,6 +29,28 @@ var first=document.getElementById("first");
 var second=document.getElementById("second");
 var third=document.getElementById("third");
 
+
+
+var positionA1=document.getElementById("A1");
+
+var input1=document.getElementById("input1");
+
+// var valueA1=input1.value;
+
+
+
+var button= document.getElementById("button");
+
+button.addEventListener("click", function(){
+	var valueA1=input1.value;
+	positionA1.innerHTML= valueA1;
+})
+
+
+
+
+
+
 /*********FUNCTIONS*********************/
 
 formation.addEventListener("change",Tactic433);
@@ -109,33 +131,6 @@ function Tactic433(){
 	}	
 }
 
-function deletformation(){
-
-
-	// for(var i=0; i<4; i++){
-	// 	block[i].classList.remove("lines");
-	// }
-	// block[0].classList.remove("line1")
-	// block[1].classList.remove("line2");
-	// block[2].classList.remove("line3");
-	// block[3].classList.remove("line4");
-	// for(var i=0; i<11; i++){
-	// 	players[i].classList.remove("placePlayer");
-	// }
-
-	// for(var i=0; i<forward.length; i++){
-	// 	forward[i].classList.remove("forward");
-	// }
-	// for(var i=0; i<mid.length; i++){
-	// 	mid[i].classList.remove("mid");
-	// }
-	// for(var i=0; i<defense.length; i++){
-	// 	defense[i].classList.remove("defense");
-	// }
-	// for(var i=0; i<goalkeeper.length; i++){
-	// 	goalkeeper[i].classList.remove("goalkeeper");
-	// }
-}
 
 function deletefirst(){
 	first.parentNode.removeChild(first);
